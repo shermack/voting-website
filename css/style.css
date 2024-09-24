@@ -1,0 +1,258 @@
+/* Body styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../assets/homepage.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Header styles */
+header {
+    background: rgba(0, 0, 0, 0.6); /* Dark overlay on background */
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.heading-container {
+    position: relative;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive; /* Playful, gravity-like font */
+    font-size: 64px;
+    margin: 0;
+    letter-spacing: 4px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+.motive-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+/* Category grid styling */
+.categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    justify-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    margin: 30px;
+}
+
+.category {
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.category img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007bff;
+    transition: all 0.3s ease;
+}
+
+.category a {
+    display: block;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #007bff;
+    text-transform: capitalize;
+}
+
+.category:hover {
+    transform: scale(1.05);
+}
+
+.category:hover img {
+    border-color: #0056b3;
+}
+
+.category a:hover {
+    color: #0056b3;
+}
+/* Body styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+
+/* Contender grid styling */
+.contenders {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    justify-items: center;
+}
+
+.contender {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.contender img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.contender h2 {
+    font-size: 22px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.contender p {
+    font-size: 16px;
+    color: #666;
+}
+
+.vote-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.vote-btn:hover {
+    background-color: #0056b3;
+}
+
+.contender:hover {
+    transform: scale(1.05);
+}
+/* TikTok theme - vibrant and dynamic */
+/* Common Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f8fc;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(90deg, #fe2c55, #25f4ee);
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Contender Grid */
+.contenders {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    justify-items: center;
+}
+
+.contender {
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 300px; /* Ensures the cards have a max width */
+}
+
+.contender img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.contender h2 {
+    margin-top: 10px;
+}
+
+.contender p {
+    font-size: 16px;
+    color: #333;
+}
+
+.vote-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.vote-btn:hover {
+    opacity: 0.9;
+}
+
+.contender:hover {
+    transform: scale(1.05);
+}
+
+/* Specific Category Styles */
+
+/* YouTube Category */
+.youtube .header {
+    background-color: #ff0000;
+}
+
+.youtube .vote-btn {
+    background-color: #ff0000;
+}
+
+
+
+/* Makeup Artist Category */
+.makeupartist .header {
+    background-color: #f7e1d7;
+}
+
+.makeupartist .vote-btn {
+    background-color: #d9a5a5;
+}

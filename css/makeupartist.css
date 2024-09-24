@@ -1,0 +1,78 @@
+/* Makeup Artist theme - Elegant and pastel */
+body {
+    font-family: 'Lora', serif;
+    background-color: #f0f4f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f7e1d7;
+    padding: 30px 0;
+    text-align: center;
+    color: #8d6a6a;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 20px;
+    color: #8d6a6a;
+}
+
+/* Contender grid */
+.contenders {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    justify-items: center;
+}
+
+.contender {
+    background: #fff;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contender img {
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.contender h2 {
+    color: #8d6a6a;
+}
+
+.contender p {
+    font-size: 16px;
+}
+
+.vote-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d9a5a5;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.vote-btn:hover {
+    background-color: #c58f8f;
+}
+
+.contender:hover {
+    transform: scale(1.05);
+}
